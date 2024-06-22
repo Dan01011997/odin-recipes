@@ -1,0 +1,76 @@
+body{
+    width:40vw;
+    margin:60px auto;
+}
+body >* > *{
+    display: inline-block;
+    vertical-align: middle
+    ;
+}
+.container > *{
+    margin:20px 20px;
+    border-radius: 20px; 
+
+background:#cacacad7;
+}
+.title{
+    padding:10px 20px;
+    text-align: center;
+}
+h1{
+    color:rgb(231, 92, 92);
+   font-family: 'Courier New', Courier, monospace;
+   margin:0;
+}
+.recipe{
+    font-weight: bold;
+    font-size: 20px;
+    padding:0;
+    margin:10px auto;
+    width:80%;
+
+}
+.recipe li{
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(168, 124, 124);
+    border-radius: 20px; 
+    margin: 25px 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(49, 0, 0);
+    display: inline-block;
+    padding:10px;
+
+}
+.recipe li:hover{
+    background-color: rgba(168, 124, 124,0.5);
+}
+.container
+{
+    background: rgb(245, 245, 219);
+    border-radius: 20px; 
+
+    border:3px solid rgb(48, 0, 0);   
+}
+.cuisines{
+    padding:15px 0;
+
+}
+.parent{
+    height: 400px;
+}
+span .child{
+display: inline-block;
+width:26.5%;
+height:60%;
+background-color: rgb(225, 247, 240);
+margin-left: 20px;
+margin-right: 20px;
+padding:14px;
+font-size: 13px;
+border:2px solid saddlebrown;
+border-radius: 20px;
+box-sizing: border-box;
+}
